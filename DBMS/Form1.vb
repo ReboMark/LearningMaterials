@@ -10,7 +10,7 @@ Public Class Form1
         Dim ds As New DataSet()
         student = toSearch.Text
 
-        con.ConnectionString = "Server=tcp:rcs-ims.database.windows.net,1433;Initial Catalog=dms;Persist Security Info=False;User ID=myAdmin;Password=Settings@101;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+        con.ConnectionString = ""
 
         con.Open()
         cmd.Connection = con
@@ -35,7 +35,7 @@ Public Class Form1
         strAge = txtAge.Text
         strGender = txtGender.Text
 
-        con.ConnectionString = "Server=tcp:rcs-ims.database.windows.net,1433;Initial Catalog=dms;Persist Security Info=False;User ID=myAdmin;Password=Settings@101;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+        con.ConnectionString = ""
 
         con.Open()
         cmd.Connection = con
